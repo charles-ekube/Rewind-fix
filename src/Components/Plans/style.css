@@ -1,0 +1,131 @@
+.plans-container {
+    background: #131313;
+    padding: 50px 200px;
+    box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.2);
+}
+.plans-container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.plans-container-header h2 {
+    width: 388px;
+    margin: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 59px;
+    letter-spacing: 0.1px;
+    color: #DC1623;
+    text-align: center;
+}
+.plans-container-header p {
+    width: 671px;
+    margin: auto;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #F2F2F2;
+}
+.plans-card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+    padding-top: 50px;
+}
+.plan-card {
+    background: #292929;
+    border-radius: 16px;
+    padding: 30px 20px;
+}
+.plan-card div h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 59px;
+    letter-spacing: 0.1px;
+    color: #F8F8FF;
+}
+.plan-card div h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #F8F8FF;
+}
+.plan-card #monthly h2 
+{
+    color: #F2D2B6;
+}
+.plan-card #monthly h4 {
+    color: #F2D2B6;
+}
+.plan-card #yearly h2 
+{
+    color: #F2D2B6;
+}
+.plan-card #yearly h4 {
+    color: #F2D2B6;
+}
+
+.plan-card div p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #F8F8FF;
+}
+.plan-card hr {
+    background: #EBECED;
+    border: 1px solid #EBECED;
+    margin: 25px 0 20px 0;
+}
+
+.plan-card ul li {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    color: #F8F8FF;
+    padding:10px 0;
+    display:flex;
+}
+.plan-card ul li span img {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.plan-card button {
+    width: 100%;
+    border:none;
+    padding: 10px;
+    margin: 10px 0;
+    background: #4F4F4F;
+    border-radius: 50px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #828282;
+}
+.plan-card #upgrade-btn {
+    background:#DC1623;
+    color: #F8F8FF;
+}
+
+

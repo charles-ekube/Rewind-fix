@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import {MovieOverviewCard, Plans} from '../../Components';
+
 
 const LandingPage = () => {
 
@@ -32,10 +34,13 @@ const LandingPage = () => {
                         </p>
                     </div>
                     <div className='movies-overview-grid'>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                       <MovieOverviewCard/>
+                       <MovieOverviewCard/>
+                       <MovieOverviewCard/>
                     </div>
+                </section>
+                <section>
+                    <Plans/>
                 </section>
             </main>
         </>

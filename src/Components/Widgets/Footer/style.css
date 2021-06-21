@@ -1,4 +1,40 @@
 @media only screen and (min-device-width: 200px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 1)   {}
 
 
-@media only screen and (min-device-width: 1001px) and (-webkit-min-device-pixel-ratio: 1) {}
+@media only screen and (min-device-width: 1001px) and (-webkit-min-device-pixel-ratio: 1) {
+
+.footer {
+    background: #0A0A0A;
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 200px;
+}
+.footer ul {
+    display: grid;
+    gap:0 20px;
+    grid-template-columns: repeat(3, 1fr);
+    color:#fff;
+}
+
+.footer ul li {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding-bottom:5px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    border: 1px solid red;
+}
+}

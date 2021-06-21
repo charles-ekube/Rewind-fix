@@ -87,7 +87,7 @@
 
 .movies-overview {
     background: #0A0A0A;
-    padding:50px;
+    padding:50px 200px;
 }
 .movies-overview h4 {
     width: 308px;
@@ -129,11 +129,9 @@
 .movies-overview-grid {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 50px;
+
 }
-.movies-overview-grid span {
-    padding: 100px;
-    border:1px solid red;
-}
+
 
 }
